@@ -1,0 +1,20 @@
+<div class="hero-container">
+    <h2>{{ hero.title }}</h2>
+    <div class="hero-gallery">
+    </div> <!-- //cierre div class -->
+
+    <div *ngFor="let img of hero.gallery">
+    <img src="{{ img.src }}" alt="{{ img.alt }}" (click)="onSelect(hero)" 
+    />
+    </div> <!-- cierre div ngFor -->
+
+</div> <!-- cierra div hero container -->
+
+
+  <!--   <li *ngFor="let hero of heroes"
+      [class.selected]="hero === selectedHero"
+      (click)="onSelect(hero)">
+      <span class="badge">{{hero.id}}</span> {{hero.name}}
+    </li>
+  </ul>
+  <app-hero-detail [hero]="selectedHero"></app-hero-detail> --> -->

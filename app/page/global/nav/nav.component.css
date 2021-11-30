@@ -1,0 +1,21 @@
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+  margin: 20px;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+img {
+  width: 100%;
+  padding: 10px;
+}
+/*# sourceMappingURL=nav.component.css.map */

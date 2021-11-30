@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,GAAG,CAAC;EACA,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,OAAO,EAAE,IAAI;EACb,MAAM,EAAE,IAAI;CACf;;AAED,AAAA,KAAK,CAAC;EACF,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;CAEhB;;AAED,AAAA,GAAG,CAAC;EACA,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,IAAI;CAChB",
+    "sources": [
+        "nav.component.scss"
+    ],
+    "names": [],
+    "file": "nav.component.css"
+}

@@ -1,0 +1,14 @@
+<div class="drama-container">
+    <h2>{{ drama.title }}</h2>
+    <div class="drama-gallery">
+    </div> 
+
+    <div *ngFor="let img of drama.gallery">
+    <img src="{{ img.src }}" alt="{{ img.alt }}"/>
+    </div> <!-- cierre div ngFor -->
+
+</div> 
+
+
+
+

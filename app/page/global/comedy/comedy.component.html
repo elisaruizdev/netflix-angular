@@ -1,0 +1,12 @@
+
+<div class="comedy-container">
+    <h2>{{ comedy.title }}</h2>
+    <div class="comedy-gallery">
+    </div> <!-- //cierre div class -->
+
+    <div *ngFor="let img of comedy.gallery">
+    <img src="{{ img.src }}" alt="{{ img.alt }}" />
+    </div> <!-- cierre div ngFor -->
+
+</div> <!-- cierra div comedy container -->
+
